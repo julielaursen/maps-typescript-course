@@ -1,6 +1,6 @@
 // an interface is instructions to every other class
 // on how they can be an argument, in this instance, to 'addMarker'
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number
     lng: number
